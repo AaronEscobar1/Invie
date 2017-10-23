@@ -2,48 +2,48 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-	<style src="Estilos.css"></style>
 	<title>Invie - Tus mejores guitarras!!</title>
+	<link rel="stylesheet" href="styles/Estilos.css">
 </head>
 <body>
-	<header><!--Header-->
-		<figure> <!--Es una forma especial de 
+	<header id="header" class="header"><!--Header-->
+		<figure class="loguito"> <!--Es una forma especial de 
 			decir que dentro va una figura imagen
 			Logo tiene una imagen-->
 			<img src="images/invie.png" alt="Logo Invie" width="186px" height="60px" />
 		</figure>
-		<nav> <!--Esta etiqueta sirve para crear menus-->	
+		<nav class="menu"><!--Esta etiqueta sirve para crear menus-->
 			<ul>  <!--Para empezar una lista-->
 				<li><!--Para diferenciar cada iten de la lista-->
-					<a href="">Home</a><!--Etiqueta de ancla-->
+					<a href="index.html">Home</a><!--Etiqueta de ancla-->
 				</li>
 				<li>
-					<a href="">Guitarras</a>
+					<a href="#guitarras">Guitarras</a>
 				</li>
 				<li>
-					<a href="">precios</a>
+					<a href="precios.html">Precios</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
-	<section><!--Portada-->
-	<h1>Guitarras invicibles</h1> <!--Solo se debe usar una ves
-por pagina-->
-	<h3>Se la estrella de rock que siempre quisiste ser</h3>
-	<button>Conoce mas</button>
+	<section class="portada"><!--Portada-->
+		<h1 class="titulo">Guitarras invicibles</h1> <!--Solo se debe usar una ves
+	por pagina-->
+		<h3 class="title-a">Se la estrella de rock que siempre quisiste ser</h3>
+		<button class="boton">Conoce mas</button>
 	</section>
-	<section><!--Guitarras-->
+	<section id="guitarras" class="guitarras"><!--Guitarras-->
 		<h2>Nuestras Guitarras</h2>
-		<article> <!--Para poner contenido especifico-->
+		<article class="guitarras"> <!--Para poner contenido especifico-->
 			<img src="images/invie-acustica.png" alt="Invie Acustica" width="200px" />
-			<h3>Invie Acustica</h3>
+			<h3 class="title-b">Invie Acustica</h3>
 			<ol>
 				<li>Estilo vintage</li>
 				<li>Madera pura</li>
 				<li>Incluye estuche invicible de aluminio</li>
 			</ol>
 		</article>
-		<article> <!--Para poner contenido especifico-->
+		<article class="guitarras"> <!--Para poner contenido especifico-->
 			<img src="images/invie-classic.png" alt="Invie Clasica" width="200px" />
 			<h3>Invie Classic</h3>
 			<ol>
