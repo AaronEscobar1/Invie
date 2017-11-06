@@ -1,0 +1,49 @@
+/*selectores para general de pagina= * todo lo que esta dentro del document
+*
+{
+	border:1px solid red;
+	margin: 10px;
+}
+/*para selector de etiqueta= nombre de la etiqueta todas las etiquetas que 
+tengan este nombre van a obtener el atributo
+header 
+{
+	background: peru;
+}
+section 
+{
+	background: blue;
+}
+/*Selector descendente
+article h3 
+{
+	color: green;
+}
+/*Selectores de clase por atributo= class por "." 
+.title-a 
+{
+	background:yellow;
+}
+.title-b
+{
+	background: salmon;
+}
+/*Selectores de id por atributo= class por "."
+#header
+{
+	border:3px solid black;
+}
+#portada
+{
+	border:3px solid brown;
+}
+#guitarras
+{
+	border: 3px solid purple;	
+}
+*/
+
+.titulo 
+{
+	font-size: 70;
+}
